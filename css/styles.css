@@ -1,0 +1,32 @@
+/* Selector por etiqueta */
+h1 {
+    color: orangered;
+    background: gainsboro;
+}
+
+p {
+    color: orangered;
+}
+
+a {
+    color: green;
+}
+
+/* Selector por ID */
+#enlaceDeContacto {
+    color: brown;
+}
+
+/* Selector por clase */
+.oscuro {
+    background: black;
+    color: white;
+}
+
+.subrayado {
+    text-decoration: underline 2px red;
+}
+
+body {
+    background: #eee;
+}
