@@ -1,32 +1,40 @@
-/* Selector por etiqueta */
-h1 {
-    color: orangered;
-    background: gainsboro;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    /*
+    background-color: #fff;
+    background-image: url("../img/empanadas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+
+    background: #fff url("../img/fondo.jpg") no-repeat fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
-p {
-    color: orangered;
+html {
+    font-size: 16px;
+}
+
+header {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 a {
-    color: green;
+    font-size: 1.2rem;
 }
 
-/* Selector por ID */
-#enlaceDeContacto {
-    color: brown;
-}
-
-/* Selector por clase */
-.oscuro {
-    background: black;
-    color: white;
-}
-
-.subrayado {
-    text-decoration: underline 2px red;
-}
-
-body {
-    background: #eee;
+header, nav, footer {
+    background-color: rgba(32, 30, 30, 0.871);
 }
